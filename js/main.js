@@ -326,7 +326,7 @@ $(function(){
         if (animation) {
     
           var text = $('#home .typer-title'),
-              textOne = "i'm web/marketing designer",
+              textOne = "i'm educational technologist",
               textTwo = "let's work together",
               textThree = "i can create awesome stuff";
     
