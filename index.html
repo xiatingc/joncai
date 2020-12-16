@@ -418,22 +418,26 @@ Xiating demonstrated his capabilities as a student, role model and leader to the
 
             <div class="row">
                 <div class="col-xs-12 col-md-10 col-md-offset-1">
-                 
+                    <form id="contact-john-form" method="POST" data-netlify="true">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" id="name" class="input-field" required="required" placeholder="Name">
+                            <span class="name-error text-center mb-30"></span>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" id="email" class="input-field" required="required" placeholder="Email">
+                            <span class="email-error text-center mb-30"></span>
+                        </div>
+                        <div class="col-xs-12">
+                            <textarea name="message" id="message" class="input-field" required="required" placeholder="Message"></textarea>
+                            <span class="message-error text-center mb-30"></span>
+                        </div>
+                        <div id="form-message" class="error mb-30 text-center"></div>
+
+                        <button type="submit" class="effect submit-btn">Send Message</button>
+
+                    </form>
+
                    
-                    <form name="contact" method="POST" data-netlify="true">
-                        <p>
-                          <label>Name <input  type="text" name="name" /></label>   
-                        </p>
-                        <p>
-                          <label>Email <input type="email" name="email" /></label>
-                        </p>
-                        <p>
-                          <label>Message <textarea name="message"></textarea></label>
-                        </p>
-                        <p>
-                          <button id="border-rounded" type="submit">Send Message</button>
-                        </p>
-                      </form>
                 </div>
             </div> <!-- end row -->
         </div> <!-- End Container -->
