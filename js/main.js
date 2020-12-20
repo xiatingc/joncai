@@ -504,7 +504,7 @@ $(function(){
     -------------------------------------------*/
     
         $(".popup-youtube").magnificPopup({
-            type: 'iframe'
+            type: 'iframe',
         });
     
         $('.popup-link').magnificPopup({
