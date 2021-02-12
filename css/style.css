@@ -684,12 +684,10 @@ Work
 #work-list li .filter:after {
 	content: '';
 	position: absolute;
-	bottom: -webkit-calc(50% - 1px );
-	bottom: -moz-calc(50% - 1px );
-	bottom: calc(50% - 1px );
-	left: 0;
 	width: 0;
 	height: 1px;
+	top: 20px;
+	left: 0;
 	background-color: #484848;
 	-webkit-transition: width .24s ease-out;
 	-o-transition: width .24s ease-out;
