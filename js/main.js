@@ -328,7 +328,7 @@ $(function(){
           var text = $('#home .typer-title'),
               textOne = "a digital geek and a creative thinker",
               textTwo = "let's work together",
-              textThree = "i can create awesome stuff";
+              textThree = "we can create awesome stuff";
             
     
               if (!!$.prototype.typer) {
